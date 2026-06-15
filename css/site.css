@@ -187,6 +187,7 @@ section{position:relative}
 .cater{position:relative;background:var(--mesquite);overflow:hidden}
 .cater::before{content:"";position:absolute;inset:0;background:radial-gradient(90% 130% at 100% 0%,rgba(200,80,30,.22),transparent 55%)}
 .cater .wrap{position:relative;z-index:2}
+.cater-inner{display:grid;gap:26px}
 .tags{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 34px}
 .tags span{font-family:var(--mono);font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;
   color:var(--oro-lux);border:1px solid rgba(230,200,146,.4);padding:8px 14px}
