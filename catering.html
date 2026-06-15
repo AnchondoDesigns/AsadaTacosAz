@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Catering — Build Your Taco Bar · Asada Tacos AZ</title>
+<meta name="description" content="Asada Tacos AZ catering — build your taco bar online. Pick a package, headcount & add-ons for weddings, corporate events, anniversaries & parties across Phoenix.">
+<meta name="theme-color" content="#0B0B0B">
+<meta property="og:title" content="Catering — Build Your Taco Bar · Asada Tacos AZ">
+<meta property="og:description" content="Pick a package, your headcount, and add-ons. We bring the grill, the staff, and the line out the door.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&family=Archivo+Expanded:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+<style>
+.step-no{font-family:var(--mono);font-size:.6rem;letter-spacing:.2em;color:var(--oro);text-transform:uppercase;margin:38px 0 16px;display:flex;align-items:center;gap:12px}
+.step-no::before{content:"";width:24px;height:1px;background:var(--oro)}
+.confirm{background:var(--carbon-2);border:1px solid var(--oro);padding:22px;margin-top:16px;display:none}
+.confirm.show{display:block}
+</style>
+</head>
+<body>
+<div id="load"><img class="loadlogo" src="assets/img/asada-logo.png" alt="Asada Tacos — Sabor Original"><div class="ember" aria-hidden="true"></div></div>
+<div id="glow" aria-hidden="true"></div>
+
+<header id="hdr">
+  <div class="wrap nav">
+    <a href="index.html" class="brand" aria-label="Asada Tacos — Sabor Original home"><img class="brandlogo" src="assets/img/asada-logo.png" alt="Asada Tacos — Sabor Original"></a>
+    <nav class="navlinks">
+      <a href="menu.html">Menu</a>
+      <a href="find-us.html">Find Us</a>
+      <a href="story.html">Story</a>
+      <a href="catering.html" class="cta ghost" aria-current="page">Cater an event</a>
+    </nav>
+    <div class="burger" id="burger" aria-label="Menu" role="button" tabindex="0"><span></span><span></span><span></span></div>
+  </div>
+</header>
+<div id="drawer">
+  <div class="drawer-top">
+    <a href="index.html" class="brand" aria-label="Asada Tacos — Sabor Original home"><img class="brandlogo" src="assets/img/asada-logo.png" alt="Asada Tacos — Sabor Original"></a>
+    <button class="dclose" id="dclose" type="button" aria-label="Close menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
+  </div>
+  <nav class="drawer-links">
+    <a href="menu.html"><span class="mono">01</span>Menu</a>
+    <a href="find-us.html"><span class="mono">02</span>Find Us</a>
+    <a href="catering.html"><span class="mono">03</span>Catering</a>
+    <a href="story.html"><span class="mono">04</span>Story</a>
+  </nav>
+  <a href="catering.html" class="cta">Build your taco bar</a>
+</div>
+
+<main>
+<section class="phero">
+  <div class="wrap">
+    <h1 class="h1 rv d1">Build your<br><em>taco bar.</em></h1>
+    <p class="lead rv d2">Pick a package, set your headcount, choose the extras. Your estimate updates live. We bring the grill, the staff, and the line out the door — for weddings, anniversaries, corporate, and backyard blowouts across the Valley.</p>
+    <div class="tags rv d2"><span>Weddings</span><span>Business Anniversaries</span><span>Corporate</span><span>Birthdays</span><span>Graduations</span></div>
+  </div>
+</section>
+
+<section class="showcase rv">
+  <img src="assets/generated/20260615-015755_catering-spread-web.jpg" alt="Overhead spread of an Asada Tacos catering taco bar" loading="lazy">
+  <div class="cap"><div class="wrap"><p class="kicker mono">The spread</p><p class="h2" style="max-width:16ch">Built for <em>your headcount.</em></p></div></div>
+</section>
+
+<section class="band tight">
+  <div class="wrap config-grid">
+    <form id="builder" autocomplete="on">
+      <p class="step-no">Step 01 — Choose your package</p>
+      <div class="config" id="pkgs">
+        <div class="pkg sel" data-pkg="Street Cart" data-head="16" data-min="25">
+          <div class="pn">The Street Cart</div>
+          <div class="pp">$16 / guest · 25 min</div>
+          <div class="pd">Two signature asada tacos per guest, chips &amp; salsa, agua fresca. Fast, classic, crowd-pleasing.</div>
+          <ul><li>2 tacos / guest</li><li>Chips &amp; salsa</li><li>Agua fresca</li></ul>
+        </div>
+        <div class="pkg" data-pkg="La Taquiza" data-head="22" data-min="30">
+          <div class="pn">La Taquiza <span style="color:var(--brasa);font-family:var(--mono);font-size:.5rem;letter-spacing:.18em;vertical-align:middle">★ Most booked</span></div>
+          <div class="pp">$22 / guest · 30 min</div>
+          <div class="pd">Build-your-own taco bar — asada plus a second protein, rice, beans, full salsa lineup, agua fresca.</div>
+          <ul><li>Taco bar</li><li>2 proteins</li><li>Rice &amp; beans</li><li>Salsa bar</li></ul>
+        </div>
+        <div class="pkg" data-pkg="Fiesta Grande" data-head="30" data-min="40">
+          <div class="pn">Fiesta Grande</div>
+          <div class="pp">$30 / guest · 40 min</div>
+          <div class="pd">The full spread — taco bar, quesadillas, elote en vaso, guac &amp; salsa bar, churros to close.</div>
+          <ul><li>Everything in Taquiza</li><li>Quesadillas</li><li>Elote</li><li>Churros</li></ul>
+        </div>
+      </div>
+
+      <p class="step-no">Step 02 — The details</p>
+      <div class="fieldrow">
+        <div class="field"><label for="head">Guest count</label><input type="number" id="head" min="1" value="50" inputmode="numeric"></div>
+        <div class="field"><label for="date">Event date</label><input type="date" id="date"></div>
+        <div class="field"><label for="time">Start time</label><input type="time" id="time" value="17:00"></div>
+        <div class="field"><label for="city">City / area</label><input type="text" id="city" placeholder="Gilbert, Tempe, Chandler…"></div>
+      </div>
+
+      <p class="step-no">Step 03 — Add the extras</p>
+      <div class="addons" id="addons">
+        <div class="addon" data-name="Extra protein station" data-price="4" data-per="head"><span class="box"></span><span class="an">Extra protein station</span><span class="ap">+$4 / guest</span></div>
+        <div class="addon" data-name="Guac &amp; salsa bar" data-price="3" data-per="head"><span class="box"></span><span class="an">Guac &amp; salsa bar</span><span class="ap">+$3 / guest</span></div>
+        <div class="addon" data-name="Churro / dessert station" data-price="3" data-per="head"><span class="box"></span><span class="an">Churro / dessert station</span><span class="ap">+$3 / guest</span></div>
+        <div class="addon" data-name="Plateware &amp; utensils" data-price="1.5" data-per="head"><span class="box"></span><span class="an">Plateware &amp; utensils</span><span class="ap">+$1.50 / guest</span></div>
+        <div class="addon" data-name="On-site staffing &amp; setup" data-price="150" data-per="flat"><span class="box"></span><span class="an">On-site staffing &amp; setup</span><span class="ap">+$150</span></div>
+        <div class="addon" data-name="Photobooth add-on" data-price="350" data-per="flat"><span class="box"></span><span class="an">Photobooth add-on</span><span class="ap">+$350</span></div>
+      </div>
+
+      <p class="step-no">Step 04 — Who do we send the quote to?</p>
+      <div class="fieldrow">
+        <div class="field"><label for="name">Your name</label><input type="text" id="name" placeholder="First &amp; last"></div>
+        <div class="field"><label for="email">Email</label><input type="email" id="email" placeholder="you@email.com"></div>
+        <div class="field"><label for="phone">Phone</label><input type="tel" id="phone" placeholder="(480) 000-0000"></div>
+        <div class="field"><label for=" etype">Event type</label><input type="text" id="etype" placeholder="Wedding, corporate, birthday…"></div>
+      </div>
+      <div class="field" style="margin-top:16px"><label for="notes">Anything else?</label><textarea id="notes" rows="3" placeholder="Dietary needs, venue, vibe — tell us."></textarea></div>
+    </form>
+
+    <aside class="summary" id="summary" aria-live="polite">
+      <h3>Your Taco Bar</h3>
+      <div class="sline"><span id="sum-pkg">The Street Cart</span><span class="mono" id="sum-pkgp">$16/gst</span></div>
+      <div class="sline"><span>Guests</span><b id="sum-head">50</b></div>
+      <div class="sline"><span>Food subtotal</span><span class="mono" id="sum-food">$800</span></div>
+      <div id="sum-addons"></div>
+      <div class="stotal"><span class="lbl">Estimated total</span><span class="amt" id="sum-total">$800</span></div>
+      <p class="note" id="minnote"></p>
+      <button type="button" class="cta" id="reserve" style="width:100%;margin-top:18px">Reserve this date</button>
+      <p class="note">Free, no-obligation estimate. A team member confirms availability &amp; final pricing. A deposit secures your date once we connect payment.</p>
+      <div class="confirm" id="confirm">
+        <p class="mono" style="color:var(--oro-lux);margin-bottom:10px">Request ready ✓</p>
+        <p style="font-size:.92rem;color:var(--hueso-dim);margin-bottom:14px">We've packaged your taco bar. Send it over and we'll reply within one business day with availability and a deposit link.</p>
+        <a class="cta" id="sendmail" href="#" style="width:100%">Email my request</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="band tight">
+  <div class="wrap">
+    <p class="kicker mono rv">How it works</p>
+    <h2 class="h2 rv d1">Four steps to <em>a full plate.</em></h2>
+    <div class="figs" style="margin-top:40px">
+      <div class="fig rv d1"><div class="n">01</div><div class="l">Build &amp; request your estimate</div></div>
+      <div class="fig rv d2"><div class="n">02</div><div class="l">We confirm date &amp; final quote</div></div>
+      <div class="fig rv d3"><div class="n">03</div><div class="l">Deposit secures the grill</div></div>
+    </div>
+    <p class="note rv" style="margin-top:24px">Typical lead time is two weeks; we'll always try for last-minute. Minimums vary by package. Service area: Phoenix East Valley &amp; greater metro — travel beyond is quoted per trip.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fmark rv">Let's<br><b>Cater.</b></div>
+    <div class="fgrid">
+      <div class="fcol"><h4>Asada Tacos AZ</h4><p>Authentic carne asada street tacos &amp; full-service catering across the Phoenix East Valley. Licensed &amp; insured.</p></div>
+      <div class="fcol"><h4>Visit</h4><a href="find-us.html">Weekly schedule</a><a href="find-us.html">Brewery pop-ups</a><a href="#" onclick="return false">Order on DoorDash</a></div>
+      <div class="fcol"><h4>Connect</h4><a href="tel:+14808510506">(480) 851-0506</a><a href="mailto:asadatacosaz@gmail.com">asadatacosaz@gmail.com</a><a href="https://www.instagram.com/asada_tacos_az/" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@asadatacos" target="_blank" rel="noopener">TikTok</a></div>
+      <div class="fcol"><h4>Menu</h4><a href="menu.html" class="cta ghost">See the menu</a></div>
+    </div>
+    <div class="fbtm"><span>© 2026 Asada Tacos AZ</span><span>Phoenix · Arizona · Sabor Original</span><span>Site by Anchondo Designs</span></div>
+  </div>
+</footer>
+
+<script src="js/site.js"></script>
+<script>
+(function(){
+  var money=function(n){return '$'+Math.round(n).toLocaleString();};
+  var pkgs=document.querySelectorAll('#pkgs .pkg');
+  var addons=document.querySelectorAll('#addons .addon');
+  var headIn=document.getElementById('head');
+  var sel={pkg:'The Street Cart',head:16,min:25,name:'Street Cart'};
+
+  function recalc(){
+    var head=Math.max(0,parseInt(headIn.value,10)||0);
+    var perHead=sel.head, flat=0, lines='';
+    addons.forEach(function(a){
+      if(a.classList.contains('sel')){
+        var p=parseFloat(a.getAttribute('data-price')), per=a.getAttribute('data-per');
+        if(per==='head'){perHead+=p; lines+='<div class="sline"><span>'+a.getAttribute('data-name')+'</span><span class="mono">+'+money(p*head)+'</span></div>';}
+        else{flat+=p; lines+='<div class="sline"><span>'+a.getAttribute('data-name')+'</span><span class="mono">+'+money(p)+'</span></div>';}
+      }
+    });
+    var food=sel.head*head;
+    var total=perHead*head+flat;
+    document.getElementById('sum-pkg').textContent=sel.pkg;
+    document.getElementById('sum-pkgp').textContent='$'+sel.head+'/gst';
+    document.getElementById('sum-head').textContent=head;
+    document.getElementById('sum-food').textContent=money(food);
+    document.getElementById('sum-addons').innerHTML=lines;
+    document.getElementById('sum-total').textContent=money(total);
+    var note=document.getElementById('minnote');
+    if(head>0&&head<sel.min){note.textContent='Heads up: '+sel.pkg+' has a '+sel.min+'-guest minimum.';note.style.color='var(--brasa)';}
+    else{note.textContent='';}
+    return {head:head,total:total};
+  }
+
+  pkgs.forEach(function(p){p.addEventListener('click',function(){
+    pkgs.forEach(function(x){x.classList.remove('sel');});
+    p.classList.add('sel');
+    sel.pkg=p.getAttribute('data-pkg'); sel.head=parseFloat(p.getAttribute('data-head'));
+    sel.min=parseInt(p.getAttribute('data-min'),10);
+    if(sel.pkg==='Street Cart')sel.pkg='The Street Cart';
+    recalc();
+  });});
+  addons.forEach(function(a){a.addEventListener('click',function(){a.classList.toggle('sel');recalc();});});
+  headIn.addEventListener('input',recalc);
+
+  document.getElementById('reserve').addEventListener('click',function(){
+    var r=recalc();
+    document.getElementById('confirm').classList.add('show');
+    var name=document.getElementById('name').value||'';
+    var email=document.getElementById('email').value||'';
+    var date=document.getElementById('date').value||'TBD';
+    var city=document.getElementById('city').value||'TBD';
+    var etype=document.getElementById('etype').value||'Event';
+    var body='ASADA TACOS — CATERING REQUEST%0D%0A%0D%0A'
+      +'Package: '+sel.pkg+'%0D%0A'
+      +'Guests: '+r.head+'%0D%0A'
+      +'Date: '+date+' · City: '+encodeURIComponent(city)+'%0D%0A'
+      +'Event type: '+encodeURIComponent(etype)+'%0D%0A'
+      +'Estimated total: '+money(r.total)+'%0D%0A'
+      +'Name: '+encodeURIComponent(name)+' · Phone: '+(document.getElementById('phone').value||'')+'%0D%0A'
+      +'Notes: '+encodeURIComponent(document.getElementById('notes').value||'')+'%0D%0A';
+    var subj='Catering request — '+encodeURIComponent(etype)+' · '+r.head+' guests';
+    document.getElementById('sendmail').setAttribute('href','mailto:asadatacosaz@gmail.com?subject='+subj+'&body='+body);
+    document.getElementById('confirm').scrollIntoView({behavior:'smooth',block:'nearest'});
+  });
+
+  recalc();
+})();
+</script>
+</body>
+</html>
