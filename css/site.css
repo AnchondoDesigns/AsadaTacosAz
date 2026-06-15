@@ -210,6 +210,8 @@ section{position:relative}
 .field{min-width:0}
 .field input,.field select,.field textarea{width:100%;min-width:0;background:var(--carbon-2);border:1px solid var(--line);
   color:var(--hueso);font-family:var(--body);font-size:1rem;padding:14px 15px;transition:border-color .25s}
+.field input[type=date],.field input[type=time]{-webkit-appearance:none;appearance:none;text-align:left;min-height:0}
+.field input::-webkit-date-and-time-value{text-align:left;margin:0}
 .field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--oro)}
 .field input::placeholder,.field textarea::placeholder{color:rgba(201,194,181,.45)}
 .addons{display:grid;grid-template-columns:1fr;gap:10px;margin-top:14px}
