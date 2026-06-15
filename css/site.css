@@ -207,7 +207,8 @@ section{position:relative}
 .fieldrow{display:grid;grid-template-columns:1fr;gap:16px;margin-top:14px}
 .field label{display:block;font-family:var(--mono);font-size:.58rem;letter-spacing:.18em;
   text-transform:uppercase;color:var(--oro);margin-bottom:9px}
-.field input,.field select,.field textarea{width:100%;background:var(--carbon-2);border:1px solid var(--line);
+.field{min-width:0}
+.field input,.field select,.field textarea{width:100%;min-width:0;background:var(--carbon-2);border:1px solid var(--line);
   color:var(--hueso);font-family:var(--body);font-size:1rem;padding:14px 15px;transition:border-color .25s}
 .field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--oro)}
 .field input::placeholder,.field textarea::placeholder{color:rgba(201,194,181,.45)}
@@ -275,7 +276,7 @@ footer{border-top:1px solid var(--line);padding:70px 0 40px;background:var(--car
   .brandlogo{height:112px}
   header.scrolled .brandlogo{height:60px}
   .figs{gap:24px}
-  .fieldrow{grid-template-columns:1fr 1fr}
+  .fieldrow{grid-template-columns:repeat(2,minmax(0,1fr))}
   .addons{grid-template-columns:1fr 1fr}
   .imgduo{grid-template-columns:1fr 1fr}
   .fgrid{grid-template-columns:2fr 1fr 1fr 1.2fr;gap:30px}
